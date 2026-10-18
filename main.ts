@@ -3,7 +3,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
     otherSprite.destroy()
 })
 let cherry = 0
-game.splash("cherry pickr")
+game.splash("cherry picker")
 tiles.setTilemap(tilemap`level1`)
 let mySprite = sprites.create(img`
     . . . . . f f 4 4 f f . . . . . 
